@@ -6,13 +6,14 @@
 ## 🌟 主要特点
 
 - 🔍 **实时联网搜索**：自动检测需要搜索的问题，实时获取最新信息
-- 🎯 **多平台支持**：支持多个主流大模型平台的 API，包括：
+- 🎯 **多平台支持**：支持几乎所有大模型平台的 API，包括：
   - SiliconFlow (硅基流动)
   - 百度文心 千帆
   - 字节跳动 火山方舟
   - 阿里云 百炼
   - 无问芯穹
   - 腾讯 知识引擎
+  - 其他兼容OpenAI格式的API
 - 🤔 **思维链展示**：支持展示 DeepSeek 模型的完整思考过程
 - 🧹 **自动清理**：自动清理历史记录中的思考过程，保持对话整洁
 
@@ -24,7 +25,9 @@
    - API地址：`https://search-for-llmapi.dawne.cn/with-search/v1`
    - 不带搜索版 API地址：`https://search-for-llmapi.dawne.cn/v1`
    - API Key：你的模型平台 API Key（如硅基流动的 sk-xxx）
-   - 模型：`平台@模型名`（如：`siliconflow@deepseek-ai/deepseek-coder-33b-instruct`）
+   - 模型：
+     - 平台@模型名（如：`siliconflow@deepseek-ai/deepseek-coder-33b-instruct`）
+     - 完整的API地址@模型名字，如（https://api.siliconflow.cn/v1/chat/completions@deepseek-ai/DeepSeek-V2.5）
    - 具体请看 https://eqrwxrl391e.feishu.cn/wiki/TEwxweXOOi5I2lk60VocY9QOnob
 
 
