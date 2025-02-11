@@ -27,7 +27,7 @@
    - API Key：你的模型平台 API Key（如硅基流动的 sk-xxx）
    - 模型：
      - 平台@模型名（如：`siliconflow@deepseek-ai/deepseek-coder-33b-instruct`）
-     - 完整的API地址@模型名字，如（https://api.siliconflow.cn/v1/chat/completions@deepseek-ai/DeepSeek-V2.5）
+     - 完整的API地址@模型名字，如（`https://api.siliconflow.cn/v1/chat/completions@deepseek-ai/DeepSeek-V2.5`）
    - 具体请看 https://eqrwxrl391e.feishu.cn/wiki/TEwxweXOOi5I2lk60VocY9QOnob
 
 
