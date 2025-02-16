@@ -31,7 +31,7 @@
    - 具体请看 https://eqrwxrl391e.feishu.cn/wiki/TEwxweXOOi5I2lk60VocY9QOnob
 
 
-### 方式二：自行部署(完善中)
+### 方式二：自行部署(完善中，暂不支持搜索)
 1. 克隆仓库
 2. 安装依赖：
    ```bash
@@ -42,7 +42,7 @@
    python server.py
    ```
 4. 部署到服务器并添加SSL
-5. 在Chatbox中使用：`https://你的域名/v1`或`https://你的域名/v1/chat/completions/with-search`
+5. 在Chatbox中使用：`https://你的域名/v1`
 
 ## 问题反馈
 遇到问题？欢迎提交Issue或联系作者。
